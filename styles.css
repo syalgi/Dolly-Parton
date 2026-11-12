@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(242, 180, 211);
+}
+
+section {
+  background-color: rgb(240, 216, 229);
+  margin: 50px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: light;
+   margin-left: 50px;
+}
+
+h1 {
+  font-family: "Allison", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 200px;
+  margin-left: 50px;
+  margin-top: 70px;
+  color: rgb(2, 2, 0);
+}
+
+
+
+h2 {
+  font-family: "Allison", cursive;
+  font-weight: 400;
+  font-size: 75px;
+  font-style: normal;
+  font-style: normal;
+  color: rgb(68, 5, 98);
+  margin-left: 50px;
+}
+
+
+img {
+  width: 600px;
+  padding: 50px;
+}
+
+
+.nav-main {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 20px;
+}
+
+.landing {
+    min-width: 50%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.column {
+  flex: 50%;
+  align-content: center;
+}
+.column.img {
+  flex: 50%;
+  background-image: url(images/Dolly\ Parton.jpg);
+}
+.row {
+  display: flex;
+}
+
+a:hover {
+  background-color: pink;
+}
+li {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: auto;
+}
+
+ a {
+  color:rgb(2, 2, 0);
+  text-decoration: none;
+ }
+
+footer {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 20px;
+    background-color: rgb(255, 255, 255);
+    text-align: right;
+}
